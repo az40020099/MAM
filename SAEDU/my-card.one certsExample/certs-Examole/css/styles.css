@@ -1,0 +1,111 @@
+@import 'https://fonts.googleapis.com/css?family=Cairo:400,700,900&subset=arabic';
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  font-family: cairo, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+html {
+  background-image: url(../img/img3.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+body {
+  font-family: cairo, sans-serif;
+  text-rendering: optimizeLegibility;
+  direction: rtl;
+}
+.clr {
+  clear: both;
+}
+#HomePage {
+  width: 95%;
+  margin: auto;
+  padding-top: 80px;
+}
+footer {
+  width: 100%;
+  padding-bottom: 20px;
+}
+.inpu {
+  border: 1px solid #00b5cc;
+  border-radius: 35px;
+  text-align: center;
+  width: 400px;
+}
+.button {
+  background-color: #00b5cc;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  padding: 5px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  width: 170px;
+}
+.button:hover {
+  background-color: #0ab28b;
+}
+.aid-text {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  font-family: cairo, sans-serif;
+  width: 60%;
+}
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  .aid-text {
+    font-size: 18px;
+    width: 90%;
+  }
+  #HomePage {
+    width: 95%;
+    margin: auto;
+    padding-top: 0;
+    margin-top: 50px;
+  }
+  .inpu {
+    border: 1px solid #00b5cc;
+    border-radius: 35px;
+    text-align: center;
+    width: 80%;
+  }
+  footer {
+    width: 100%;
+    font-size: 12px;
+  }
+}
+[type='file'] {
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+[type='file'] + label {
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: inherit;
+  font-weight: 500;
+  outline: none;
+  position: relative;
+  transition: all 0.3s;
+  margin: 0;
+  border: 1px solid #02b5cc;
+  color: #777575;
+  padding: 12px 0;
+  background: #f6f6f6;
+}
